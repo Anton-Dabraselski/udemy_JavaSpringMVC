@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.udemy.spring_mvc.dao.PersonDAO;
 
 @Controller
-@RequestMapping("/people")
+@RequestMapping("/test-batch-update")
 public class BatchController {
 
     private final PersonDAO personDAO;
